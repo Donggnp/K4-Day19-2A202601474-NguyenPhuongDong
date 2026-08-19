@@ -1,0 +1,16 @@
+Loại câu hỏi,Metric,Flat RAG,GraphRAG,Nhận xét phân tích,evaluation_mode
+factoid,Comprehensiveness,1.0,1.0,"Offline smoke only; rerun with LLM judge.",offline_smoke
+factoid,Faithfulness,1.0,1.0,"Offline smoke only; rerun with LLM judge.",offline_smoke
+factoid,Multi-hop reasoning,1.0,1.0,"Offline smoke only; rerun with LLM judge.",offline_smoke
+factoid,Latency (s),0.001,0.002,"Graph context has extra traversal overhead.",offline_smoke
+factoid,Token usage,12.0,18.0,"Hybrid context is longer in the smoke path.",offline_smoke
+multi-hop,Comprehensiveness,1.0,1.0,"Offline smoke only; rerun with LLM judge.",offline_smoke
+multi-hop,Faithfulness,1.0,1.0,"Offline smoke only; rerun with LLM judge.",offline_smoke
+multi-hop,Multi-hop reasoning,1.0,1.0,"Offline smoke only; rerun with LLM judge.",offline_smoke
+multi-hop,Latency (s),0.001,0.002,"Graph context has extra traversal overhead.",offline_smoke
+multi-hop,Token usage,12.0,18.0,"Hybrid context is longer in the smoke path.",offline_smoke
+cross-doc,Comprehensiveness,1.0,1.0,"Offline smoke only; rerun with LLM judge.",offline_smoke
+cross-doc,Faithfulness,1.0,1.0,"Offline smoke only; rerun with LLM judge.",offline_smoke
+cross-doc,Multi-hop reasoning,1.0,1.0,"Offline smoke only; rerun with LLM judge.",offline_smoke
+cross-doc,Latency (s),0.001,0.002,"Graph context has extra traversal overhead.",offline_smoke
+cross-doc,Token usage,12.0,18.0,"Hybrid context is longer in the smoke path.",offline_smoke
